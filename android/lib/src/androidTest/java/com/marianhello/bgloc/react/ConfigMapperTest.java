@@ -1,9 +1,11 @@
 package com.marianhello.bgloc.react;
 
+import org.junit.Ignore;
+
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
-import android.test.suitebuilder.annotation.SmallTest;
+import android.test.filters.SmallTest;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReadableMap;
